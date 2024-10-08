@@ -8,6 +8,9 @@ app.get("/" , (req,res)=>{
     res.send("Hey server 1");
 })
 
+app.get("/signup", (req,res) => {
+    res.send("Signup Succesful")
+})
 
 app.get("/login", (req,res)=>{
     res.send("<h1> Please login at chai and code </h1>")
